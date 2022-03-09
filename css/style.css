@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Space+Grotesk:wght@300;400;500;&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/BG.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.cover {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ .lua {
+    height: 80%;
+    position: absolute;
+    z-index: 1;
+ }
+
+.page-title {
+    background: -webkit-linear-gradient(140deg, #a4f5ff, #e6a1ff);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 20vmin;
+    z-index: 2;
+}
+
+.subtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 4vmin;
+    z-index: 2;
+}
+
+.sobre-mim {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-mim-title {
+    width: 20%;
+    color:#e6a1ff;
+    font-size: 4.5vmin;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+.line {
+    width: 1px;
+    background-color: #e6a1ff;
+}
+
+.sobre-mim-content {
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    color: white;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 120px;
+    border: 1px solid #a4f5ff;
+    border-radius: 20px;
+    padding: 20px 40px 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #a4f5ff;
+    display: flex;
+}
+
+.skills-title {
+    width: 30%;
+    font-size: 5vmin;
+    text-align: left;
+    padding-top: 10px;
+    /* border: 1px solid #a4f5ff; */
+}
+
+.skills-icons {
+    width: 70%;
+    /* border: 1px solid #a4f5ff; */
+}
+
+.skill-set {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid #f1a4ff; */
+
+}
+
+.skill-card {
+    /* border: 1px solid #f1a4ff; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-card img {
+    width: 100%;
+}
+
+.portfolio {
+    margin-top: 150px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 6vmin;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.portfolio-title {
+    color: #e6a1ff;
+}
+
+.portfolio-gallery {
+    margin-top: 30px;
+}
+
+.portfolio-item-set {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item {
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    /* border: 1px solid white; */
+}
+
+.portfolio-item:hover {
+    width: 31%;
+    transition: 0.5s;
+}
+
+.fade {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.fade:hover{
+    background-color:transparent;
+}
+
+.portfolio-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.contato-title {
+    background: -webkit-linear-gradient(140deg, #a4f5ff, #e6a1ff);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 17vmin;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contato p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contato-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contato-img {
+    height: 50px;
+    margin: 40px 20px;
+}
